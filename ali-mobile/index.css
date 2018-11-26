@@ -1,0 +1,36 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  width: 10rem;
+  flex-basis: 4rem;
+  background-color: tomato;
+}
+.mid {
+  width: 10rem;
+  flex: 1;
+  background-color: aquamarine;
+}
+.bottom {
+  flex-basis: 4rem;
+  width: 10rem;
+}
+.left {
+  width: 5rem;
+  height: 100%;
+  background-color: skyblue;
+  float: left;
+}
+.right {
+  width: 5rem;
+  height: 100%;
+  background-color: yellowgreen;
+  float: left;
+}
